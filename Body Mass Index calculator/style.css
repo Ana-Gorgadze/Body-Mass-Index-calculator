@@ -1,0 +1,451 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.div1{
+    width: 60%;
+    height: 80%;
+    background: linear-gradient(135deg, white, rgb(188, 225, 255));
+    border-radius: 0 0 50px 0;
+    display: flex;
+    position: absolute;
+}
+
+.div1 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 90px;
+    margin: 80px 0 0 15%;
+}
+
+.div1 .mass{
+    width: 43%;
+    margin: 0 15%;
+}
+
+.div1 .mass h1{
+    font-size: 60px;
+    padding: 25% 0 25px 0;
+}
+ 
+
+
+
+
+
+
+
+
+.div2{
+    width: 600px;
+    height: 475px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 20px 20px 40px rgb(163, 163, 163);
+    position: absolute;
+    margin: 10% 45%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.div2 h3{
+    font-size: 25px;
+    padding: 0 0 40px 0;
+}
+
+.below{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 30px 0;
+}
+
+.below .metricdiv, .imperialdiv{
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+}
+
+.metric, .imperial{
+    display: flex;
+    justify-content: baseline;
+    margin: 0 0 35px 0;
+}
+
+.metricdiv .height, .imperialdiv .weight{
+    color: rgb(201, 201, 201);
+}
+
+.below input{
+    width: 25px;
+    height: 25px;
+    margin: 0 20px 0 0;
+}
+
+.below .metric, .imperial label{
+    color: black;
+    font-weight: 550;
+}
+
+
+
+.cm, .kg{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin: 7.5px 0 0 0;
+    box-sizing: border-box;
+
+}
+
+.cm .h21, .cm .h22, .kg .h23, .kg .h24{
+    margin: 0 10px 0 10px;
+}
+
+.Welcome{
+    width: 540px;
+    height: 175px;
+    background-color: rgb(0, 26, 255);
+    border-radius: 10px 90px 90px 10px;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.Welcome h2{
+    margin: 0 0 10px 0;
+    color: white;
+}
+
+.Welcome p{
+    color: rgb(123, 180, 230);
+}
+
+
+
+
+
+
+
+
+
+
+
+.div3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 0  150px 0;
+}
+
+.div33{
+    padding: 90vh 0 0 0;
+    width: 85%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div3 img{
+    width: 40%;
+    border-radius: 80px;
+}
+
+.BMI1{
+    width: 40%;
+}
+
+.BMI1 h1{
+    font-size: 50px;
+    margin: 25% 0 5% 0;
+}
+
+.BMI1 p{
+    font-size: 20px;
+    color: gray;
+}
+
+
+
+
+
+
+
+.div4{
+    width: 100%;
+    height: 40%;
+    background: linear-gradient(90deg, white, rgb(216, 237, 255));
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 40px;
+}
+
+.div4 div{
+    width: 20%;
+    margin: 4% 0;
+}
+
+.div4 div img{
+    width: 120px;
+    border-radius: 90px;
+}
+
+.div4 div h2{
+    padding: 35px 0 30px 0;
+}
+
+.div4 div p{
+    margin: 0 0 4% 0;
+    color: gray;
+}
+
+
+
+
+
+
+
+
+
+.divs1{
+    width: 100%;   
+    padding: 10% 0 0 0;        
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+.limitations{
+    width: 37%;
+}
+
+.limitations h1{
+    font-size: 60px;
+    padding: 0 0 40px 0;
+}
+
+.limitations p{
+    color: gray;
+    font-size: 20px;
+}
+
+
+
+
+
+.genderdiv{
+    min-width: 200px;
+    max-width: 400px;
+    min-height: 250px;
+    max-height: 400px;
+    box-shadow: 10px 10px 20px rgb(211, 234, 255);
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+    margin: 0 13% 0 0;
+}
+
+.genderdiv p{
+    color: gray;
+    font-size: 20px;
+}
+
+.gender{
+    display: flex;
+    align-items: center;
+}
+
+.gender label{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#gendericon{
+    margin: 0 10px 15px 0;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+.divs2{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 35px 0  35px 38%;
+}
+
+
+
+
+.agediv{
+    min-width: 200px;
+    max-width: 400px;
+    min-height: 150px;
+    max-height: 250px;
+    box-shadow: 10px 10px 20px rgb(211, 234, 255);
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.agediv p{
+    color: gray;
+    font-size: 20px;
+}
+
+.age{
+    display: flex;
+    align-items: center;
+}
+
+.age label{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#ageicon{
+    margin: 0 10px 15px 0;
+    font-size: 25px;
+}
+
+
+
+
+
+.musclediv{
+    min-width: 200px;
+    max-width: 400px;
+    min-height: 150px;
+    max-height: 250px;
+    box-shadow: 10px 10px 20px rgb(211, 234, 255);
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.musclediv p{
+    color: gray;
+    font-size: 20px;
+}
+
+.muscle{
+    display: flex;
+    align-items: center;
+}
+
+.muscle label{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#muscleicon{
+    margin: 0 10px 15px 0;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+.divs3{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 35px 0  150px 22%;
+}
+
+
+
+
+
+
+.pregnancydiv{
+    min-width: 200px;
+    max-width: 400px;
+    min-height: 150px;
+    max-height: 250px;
+    box-shadow: 10px 10px 20px rgb(211, 234, 255);
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.pregnancydiv p{
+    color: gray;
+    font-size: 20px;
+}
+
+.pregnancy{
+    display: flex;
+    align-items: center;
+}
+
+.pregnancy label{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#pregnancyicon{
+    margin: 0 10px 15px 0;
+    font-size: 25px;
+}
+
+
+
+
+
+.racediv{
+    min-width: 200px;
+    max-width: 400px;
+    min-height: 150px;
+    max-height: 250px;
+    box-shadow: 10px 10px 20px rgb(211, 234, 255);
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.racediv p{
+    color: gray;
+    font-size: 20px;
+}
+
+.race{
+    display: flex;
+    align-items: center;
+}
+
+.race label{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#raceicon{
+    margin: 0 10px 15px 0;
+    font-size: 25px;
+}
